@@ -26,13 +26,13 @@
         GameLayer {
             bindings = <&to 3>;
             key-positions = <10 11>;
-            layers = <0 3>;
+            layers = <0>;
         };
 
         NavigationLayer {
             bindings = <&to 2>;
-            key-positions = <23 22>;
-            layers = <0 2>;
+            key-positions = <22 23>;
+            layers = <0>;
         };
 
         at {
@@ -53,6 +53,12 @@
         caret {
             bindings = <&kp CARET>;
             key-positions = <16 17>;
+        };
+
+        back {
+            bindings = <&to 0>;
+            key-positions = <4 5>;
+            layers = <3 2>;
         };
     };
 
@@ -106,10 +112,10 @@
 
         both {
             bindings = <
-&kp GRAVE  &kp Q     &kp W     &kp E     &kp R      &kp T        &kp F1   &kp F4     &kp F7    &kp F10  &kp I  &kp K
-&kp TAB    &kp A     &kp S     &kp D     &kp F      &kp G        &kp F2   &kp F5     &kp F8    &kp F11  &kp M  &kp N
-&kp SPACE  &mt N1 Z  &mt N2 X  &mt N3 C  &mt N4 D   &mt N5 V     &kp F3   &kp F6     &kp F9    &kp F12  &kp L  &kp J
-                               &kp LALT  &kp LCTRL  &kp LSHFT    &kp ESC  &kp ENTER  &kp BSPC
+&kp GRAVE  &kp Q  &kp W  &kp E     &kp R      &mt N1 T     &kp F1   &kp F2     &kp F3    &kp F4  &kp F5  &kp F6
+&kp TAB    &kp A  &kp S  &kp D     &kp F      &mt N2 G     &kp N1   &kp N2     &kp N3    &kp N4  &kp N5  &kp N6
+&kp SPACE  &kp Z  &kp X  &kp C     &kp V      &mt N3 B     &kp H    &kp J      &kp P     &kp I   &kp M   &kp L
+                         &kp LALT  &kp LCTRL  &kp LSHFT    &kp ESC  &kp ENTER  &kp BSPC
             >;
         };
     };
