@@ -37,22 +37,22 @@
 
         at {
             bindings = <&kp AT_SIGN>;
-            key-positions = <16 15>;
+            key-positions = <4 3>;
         };
 
         dollar {
             bindings = <&kp DOLLAR>;
-            key-positions = <16 3>;
+            key-positions = <16 15>;
         };
 
         star {
             bindings = <&kp ASTERISK>;
-            key-positions = <16 27>;
+            key-positions = <28 27>;
         };
 
         caret {
             bindings = <&kp CARET>;
-            key-positions = <16 17>;
+            key-positions = <4 5>;
         };
 
         back {
@@ -73,9 +73,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&mt LGUI CAPSLOCK  &kp Q  &kp W  &kp F      &kp P        &kp B              &kp J                        &kp L                          &kp U            &kp Y            &mt PERCENT SQT               &mt AMPERSAND GRAVE
-&mt LALT ESC       &kp A  &kp R  &kp S      &kp T        &kp G              &kp M                        &kp N                          &kp E            &kp I            &kp O                         &kp LBKT
-&mt LCTRL HASH     &kp Z  &kp X  &kp C      &kp D        &kp V              &kp K                        &kp H                          &mt SEMI COMMA   &mt COLON COMMA  &mt LS(QUESTION) EXCLAMATION  &mt FSLH NON_US_BACKSLASH
+&mt LGUI CAPSLOCK  &kp Q  &kp W  &kp F      &kp P        &kp B              &kp J                        &kp L                          &kp U            &kp Y          &mt PERCENT SQT               &mt AMPERSAND GRAVE
+&mt LALT ESC       &kp A  &kp R  &kp S      &kp T        &kp G              &kp M                        &kp N                          &kp E            &kp I          &kp O                         &mt RIGHT_BRACKET LEFT_BRACKET
+&mt LCTRL HASH     &kp Z  &kp X  &kp C      &kp D        &kp V              &kp K                        &kp H                          &mt SEMI COMMA   &mt COLON DOT  &mt LS(QUESTION) EXCLAMATION  &mt FSLH NON_US_BACKSLASH
                                  &lt 2 TAB  &lt 1 ENTER  &mt LSHFT SPACE    &mt BACKSPACE LC(BACKSPACE)  &mt LS(RPAR) LEFT_PARENTHESIS  &mt EQUAL MINUS
             >;
         };
