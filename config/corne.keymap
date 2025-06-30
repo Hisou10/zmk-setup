@@ -113,10 +113,10 @@
 
         both {
             bindings = <
-&kp GRAVE  &kp Q  &kp W  &kp E     &kp R      &mt N1 T     &kp F1   &kp F2     &kp F3    &kp F4  &kp F5  &kp F6
-&kp TAB    &kp A  &kp S  &kp D     &kp F      &mt N2 G     &kp N1   &kp N2     &kp N3    &kp N4  &kp N5  &kp N6
-&kp SPACE  &kp Z  &kp X  &kp C     &kp V      &mt N3 B     &kp H    &kp J      &kp P     &kp I   &kp M   &kp L
-                         &kp LALT  &kp LCTRL  &kp LSHFT    &kp ESC  &kp ENTER  &kp BSPC
+&kp GRAVE  &kp Q  &kp W  &kp E     &kp R      &mt N1 T     &kp F1         &kp F2     &kp F3      &kp F4  &kp F5  &kp F6
+&kp TAB    &kp A  &kp S  &kp D     &kp F      &mt N2 G     &kp N1         &kp N2     &kp N3      &kp N4  &kp N5  &kp N6
+&kp SPACE  &kp Z  &kp X  &kp C     &kp V      &mt N3 B     &kp H          &kp J      &kp P       &kp I   &kp M   &kp L
+                         &kp LALT  &kp LCTRL  &kp LSHFT    &kp BACKSPACE  &kp ENTER  &kp ESCAPE
             >;
         };
     };
