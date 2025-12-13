@@ -37,7 +37,7 @@
         };
 
         at {
-            bindings = <&kp AT_SIGN>;
+            bindings = <&kp HASH>;
             key-positions = <15 16>;
         };
 
@@ -47,7 +47,7 @@
         };
 
         star {
-            bindings = <&kp ASTERISK>;
+            bindings = <&kp PERCENT>;
             key-positions = <3 4>;
         };
 
@@ -84,7 +84,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&mt LGUI CAPSLOCK  &kp Q  &kp W  &kp F      &kp P        &kp B              &kp J                        &kp L                          &kp U            &kp Y          &mt HASH SQT                  &mt AMPERSAND GRAVE
+&mt LGUI CAPSLOCK  &kp Q  &kp W  &kp F      &kp P        &kp B              &kp J                        &kp L                          &kp U            &kp Y          &mt AT_SIGN SQT               &mt AMPERSAND GRAVE
 &mt LALT ESC       &kp A  &kp R  &kp S      &kp T        &kp G              &kp M                        &kp N                          &kp E            &kp I          &kp O                         &mt RIGHT_BRACKET LEFT_BRACKET
 &kp LCTRL          &kp Z  &kp X  &kp C      &kp D        &kp V              &kp K                        &kp H                          &mt SEMI COMMA   &mt COLON DOT  &mt LS(QUESTION) EXCLAMATION  &mt FSLH NON_US_BACKSLASH
                                  &lt 2 TAB  &lt 1 ENTER  &mt LSHFT SPACE    &mt BACKSPACE LC(BACKSPACE)  &mt LS(RPAR) LEFT_PARENTHESIS  &mt EQUAL MINUS
